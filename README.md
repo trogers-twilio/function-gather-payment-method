@@ -1,0 +1,1 @@
+# function-gather-payment-method
