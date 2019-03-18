@@ -1,0 +1,29 @@
+{
+  "name": "function-gather-payment-method",
+  "version": "1.0.0",
+  "description": "Twilio Function that securely gathers payment information via TwiML for processing in a Back Office System. Meant to be called from a Studio flow.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trogers-twilio/function-gather-payment-method.git"
+  },
+  "author": "Terence Rogers (Twilio)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trogers-twilio/function-gather-payment-method/issues"
+  },
+  "homepage": "https://github.com/trogers-twilio/function-gather-payment-method#readme",
+  "dependencies": {
+    "card-validator": "^6.1.0",
+    "twilio": "^3.29.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "twilio-run": "^1.0.0-beta.4"
+  }
+}
